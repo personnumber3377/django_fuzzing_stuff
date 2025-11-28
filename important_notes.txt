@@ -1,0 +1,48 @@
+Fuck here!!!!!!!!!!!
+
+ === Uncaught Python exception: ===
+OverflowError: Python int too large to convert to SQLite INTEGER
+Traceback (most recent call last):
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzz_sqli.py", line 15, in TestOneInput
+    fuzzers_sqli.fuzz_sqli(data)
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzzers_sqli.py", line 757, in fuzz_sqli
+    func(test_string) # Call target function
+    ^^^^^^^^^^^^^^^^^
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzzers_sqli.py", line 573, in test_other_functions
+    vuln_func_thing(test_string) # Call that shit.
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzzers_sqli.py", line 528, in vuln_model_fields
+    model.objects.filter(**{field_name: test_string}).exists()
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/query.py", line 1292, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/sql/query.py", line 674, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1591, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/sqlite3/base.py", line 362, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OverflowError: Python int too large to convert to SQLite INTEGER
+
+==61542== ERROR: libFuzzer: fuzz target exited
+SUMMARY: libFuzzer: fuzz target exited
+MS: 1 InsertRepeatedBytes-; base unit: 9b7f6efb50ded028ac22959ee6a4e30f985f6de2
+0x2c,0x4e,0x31,0x31,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,0x32,
+,N11222222222222222222222
+artifact_prefix='./'; Test unit written to ./crash-e68f7dabc35ea356c4580911bf6079aa5a46e87d
+Base64: LE4xMTIyMjIyMjIyMjIyMjIyMjIyMjIyMg==
+

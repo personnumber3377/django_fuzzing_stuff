@@ -1,0 +1,116 @@
+Here is the string: inin
+Here is the string: ini n
+Here is the string: [-\ttedwint
+Here is the string: [-\ttedwiznt
+Here is the string: [-\ttedw&iznt
+Here is the string: ___/8pk__Aintzigred=__O
+Exception caught: FieldError Cannot resolve keyword '_/8pk' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: ___/6pk__Aintzigred=__O
+Exception caught: FieldError Cannot resolve keyword '_/6pk' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: ___/6pk__Aintzig/8pk__Ared=__Ointzigred=__O
+Exception caught: FieldError Cannot resolve keyword '_/6pk' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: ]P
+Here is the string: pk__strat_idwirat_@
+Here is the string: start(
+Exception caught: FieldError Cannot resolve keyword 'art(' into field. Choices are: id, time
+Here is the string: start(original_opening
+Exception caught: FieldError Cannot resolve keyword 'art(original_opening' into field. Choices are: id, time
+Here is the string: start(original_opening
+Here is the string: start(orig_&completinal_eopeningd
+Here is the string: start(orig_&compeltinal_eopeningd
+Here is the string: _Zc
+Exception caught: FieldError Cannot resolve keyword 'c' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: _[c
+Exception caught: FieldError Cannot resolve keyword 'c' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string:
+Here is the string: d
+Here is the string: 9S
+Here is the string: [S
+Here is the string: S
+Here is the string: SS
+Here is the string: /strattedwintdwinte
+Exception caught: FieldError Cannot resolve keyword 'trattedwintdwinte' into field. Choices are: data, id
+Here is the string: /strattedwhntdwinte
+Exception caught: FieldError Cannot resolve keyword 'trattedwhntdwinte' into field. Choices are: data, id
+Here is the string: /strattedwhntdwmnte
+Exception caught: FieldError Cannot resolve keyword 'trattedwhntdwmnte' into field. Choices are: data, id
+Here is the string: /strattedwhendntdwmnte
+Exception caught: FieldError Cannot resolve keyword 'trattedwhendntdwmnte' into field. Choices are: data, id
+Here is the string: /strattedw[endntdwmnte
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: _Z' AND 'x'='xU,
+Exception caught: FieldError Cannot resolve keyword '' AND 'x'='xU,' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: _Z' AND ''='xU,
+Exception caught: FieldError Cannot resolve keyword '' AND ''='xU,' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: _Z' AND l'='xU,
+Exception caught: FieldError Cannot resolve keyword '' AND l'='xU,' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: _Z' AND' OR 1=1 ORDER BY 1-- l'='xU,
+Exception caught: FieldError Cannot resolve keyword '' AND' OR 1=1 ORDER BY 1-- l'='xU,' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: _ZD' OR 1=1 ORDER ' AND' OR 1=1 ORDER BY 1-- l'='xU,
+Exception caught: FieldError Cannot resolve keyword 'D' OR 1=1 ORDER ' AND' OR 1=1 ORDER BY 1-- l'='xU,' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: /8pk__Azagred__o
+Exception caught: FieldError Cannot resolve keyword 'Azagred' into field. Join on 'id' not permitted.
+Here is the string: /8pk__Azagred__O
+Exception caught: FieldError Cannot resolve keyword 'Azagred' into field. Join on 'id' not permitted.
+Here is the string: /8pk_ageagred__O
+Exception caught: FieldError Cannot resolve keyword 'pk_ageagred' into field. Choices are: data, id
+Here is the string: /admin' #gred__O
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: /admin' #rged__O
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: /8data____C/8pk_Y_g
+Here is the string: /8data____C/8pk_Yauthors_g
+Here is the string: /8data/8data____C/8pk_Yauthors_g____C/8pk_Yauthors_g
+Exception caught: FieldError Cannot resolve keyword 'data/8data' into field. Choices are: data, id
+Here is the string: /8data/8data____C/8pk_Yauthors_g____C/1pk_Yauthors_g
+Exception caught: FieldError Cannot resolve keyword 'data/8data' into field. Choices are: data, id
+Here is the string: /8data/8data____C/8pk_Yauthors_g____C/1pk_Yauuhors_g
+Exception caught: FieldError Cannot resolve keyword 'data/8data' into field. Choices are: data, id
+Here is the string: /8data____ka___%PP
+Exception caught: TypeError not enough arguments for format string
+not enough arguments for format string
+Exception encountered!!!!
+
+ === Uncaught Python exception: ===
+TypeError: not enough arguments for format string
+Traceback (most recent call last):
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzz_sqli.py", line 13, in TestOneInput
+    fuzzers_sqli.fuzz_sqli(data)
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzzers_sqli.py", line 220, in fuzz_sqli
+    func(test_string) # Call target function
+    ^^^^^^^^^^^^^^^^^
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzzers_sqli.py", line 189, in dynamic_fuzz_target
+    list(res)  # force evaluation
+    ^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/query.py", line 385, in __iter__
+    self._fetch_all()
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/query.py", line 1941, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/query.py", line 233, in __iter__
+    return compiler.results_iter(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1572, in results_iter
+    results = self.execute_sql(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 121, in execute
+    with self.debug_sql(sql, params, use_last_executed_query=True):
+  File "/usr/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 139, in debug_sql
+    sql = self.db.ops.last_executed_query(self.cursor, sql, params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/sqlite3/operations.py", line 193, in last_executed_query
+    return sql % params
+           ~~~~^~~~~~~~
+TypeError: not enough arguments for format string
+
+==891388== ERROR: libFuzzer: fuzz target exited
+SUMMARY: libFuzzer: fuzz target exited
+MS: 1 ChangeByte-; base unit: 264b2014e12e4716a6cc600330338bd201a9fc38
+0x2f,0x38,0x64,0x61,0x74,0x61,0x5f,0x5f,0x5f,0x5f,0x6b,0x61,0x5f,0x5f,0x5f,0x25,0x50,0x50,
+/8data____ka___%PP
+artifact_prefix='./'; Test unit written to ./crash-2b0c69417fec4d4287b5b153514e176307bfec6b
+Base64: LzhkYXRhX19fX2thX19fJVBQ

@@ -1,0 +1,63 @@
+WARNING: Failed to find function "__sanitizer_acquire_crash_state".
+WARNING: Failed to find function "__sanitizer_print_stack_trace".
+WARNING: Failed to find function "__sanitizer_set_death_callback".
+Dictionary: 58 entries
+INFO: Running with entropic power schedule (0xFF, 100).
+INFO: Seed: 218245062
+INFO:     2077 files found in corp/
+INFO: seed corpus: files: 2077 min: 1b max: 100b total: 73400b rss: 77Mb
+user-defined function raised exception
+not enough arguments for format string
+Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+user-defined function raised exception
+The annotation 'id' conflicts with a field on the model.
+Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Cannot resolve keyword 's' into field. Choices are: duration, end_date, end_datetime, end_time, id, name, start_date, start_datetime, start_time
+format requires a mapping
+
+ === Uncaught Python exception: ===
+TypeError: format requires a mapping
+Traceback (most recent call last):
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzz_sqli.py", line 13, in TestOneInput
+    fuzzers_sqli.fuzz_sqli(data)
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzzers_sqli.py", line 527, in fuzz_sqli
+    func(test_string) # Call target function
+    ^^^^^^^^^^^^^^^^^
+  File "/home/oof/djangosqlifuzz/django-fuzzers/fuzzers_sqli.py", line 195, in target_queryset_alias_json_field2
+    list(res)
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/query.py", line 385, in __iter__
+    self._fetch_all()
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/query.py", line 1941, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/query.py", line 233, in __iter__
+    return compiler.results_iter(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1572, in results_iter
+    results = self.execute_sql(
+              ^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/models/sql/compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 121, in execute
+    with self.debug_sql(sql, params, use_last_executed_query=True):
+  File "/usr/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/utils.py", line 139, in debug_sql
+    sql = self.db.ops.last_executed_query(self.cursor, sql, params)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/oof/atheris-venv/lib/python3.11/site-packages/django/db/backends/sqlite3/operations.py", line 193, in last_executed_query
+    return sql % params
+           ~~~~^~~~~~~~
+TypeError: format requires a mapping
+
+==952246== ERROR: libFuzzer: fuzz target exited
+SUMMARY: libFuzzer: fuzz target exited
+MS: 0 ; base unit: 0000000000000000000000000000000000000000
+0x25,0x28,
+%(
+artifact_prefix='./'; Test unit written to ./crash-1c6486b1e72be2d0a046856783b4366cf85c4d6c
+Base64: JSg=
+
+

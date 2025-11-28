@@ -1,0 +1,136 @@
+"' OR '1'='1"
+"' OR 1=1 --"
+"' OR 1=1#"
+"' OR 1=1/*"
+"' OR '1'='1' --"
+"\" OR \"1\"=\"1"
+"\" OR 1=1 --"
+"\" OR 1=1#"
+"\" OR 1=1/*"
+
+"year' FROM start_datetime)) OR 1=1;SELECT PG_SLEEP(5)--"
+"year', start_datetime)) OR 1=1;SELECT PG_SLEEP(5)-"
+
+"SEP"
+"SEP"
+
+"SEP"
+"employee_ptr_id"
+"books"
+"authors"
+"friends"
+"publisher"
+"uuid_fk_id"
+"ceo"
+"num_chairs"
+"end_datetime"
+"age"
+"employee_ptr"
+"time"
+"start_datetime"
+"contact_id"
+"pubdate"
+"experiment_id"
+"contact"
+"adjusted_salary"
+"original_opening"
+"point_of_contact_id"
+"midpoint"
+"decimal_value"
+"firstname"
+"data"
+"start_date"
+"salary"
+"result_time"
+"secretary_id"
+"end"
+"duration"
+"publisher_id"
+"start_id"
+"based_in_eu"
+"uuid_fk"
+"rating"
+"num_awards"
+"float"
+"manager_id"
+"point_of_contact"
+"isbn"
+"id"
+"start_time"
+"friday_night_closing"
+"secretary"
+"estimated_time"
+"integer"
+"name"
+"end_id"
+"experiment"
+"lastname"
+"num_employees"
+"price"
+"end_time"
+"completed"
+"end_date"
+"scalar"
+"pages"
+"assigned"
+"ceo_id"
+"work_day_preferences"
+"manager"
+"start"
+"uuid"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Lookups
+
+"exact"
+"iexact"
+"contains"
+"icontains"
+"in"
+"gt"
+"gte"
+"lt"
+"lte"
+"startswith"
+"istartswith"
+"endswith"
+"iendswith"
+"range"
+"isnull"
+"date"
+"year"
+"iso_year"
+"month"
+"day"
+"week"
+"week_day"
+"iso_week_day"
+"quarter"
+"time"
+"hour"
+"minute"
+"second"
+"regex"
+"iregex"
+
+
+
+"_Zcompleted__range"
+
+
+
+

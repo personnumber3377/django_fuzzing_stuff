@@ -1,0 +1,656 @@
+Here is the string: _1ctm'n i#d_id__:/
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: __DateField_BoBo_Bo_te//onF_Bo_te//onFi+dd\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, time
+Here is the string: __m__Date__F
+Here is the string: __m__Date__m__Date__F_F
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: books, friday_night_closing, id, name, original_opening
+Here is the string: __m__Date___F_F
+Here is the string: __m__Deta___F_F
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: adjusted_salary, based_in_eu, employee_ptr, employee_ptr_id, firstname, id, lastname, manager, manager_id, salary
+Here is the string: __DateField_Bo_Bo_te//onFi+dd\
+Here is the string: __DateField_Bo_Bo_te//onF
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, ceo, ceo_id, id, name, num_chairs, num_employees, point_of_contact, point_of_contact_id
+Here is the string: __DateField_Bo_B_____/onF
+Here is the string: __DateField_Bo_B_____/onF{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: __DateField_Bo_B_____/onF{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
+Here is the string: ____
+Here is the string: ____'
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: ____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, firstname, id, lastname, manager, manager_id, salary
+Here is the string: ____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, firstname, id, lastname, manager, manager_id, salary
+Here is the string: _]__
+Here is the string: _DateField__t__
+Exception caught: FieldError Cannot resolve keyword '_DateField' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: _DeField__t__
+Here is the string: _DeField_t__
+Here is the string: _DeF+ield_t__
+Here is the string: _DeF+ield_tD
+Here is the string: _^d/__/
+Exception caught: FieldError Cannot resolve keyword '_^d/' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: :_M_
+Here is the string: :_M_
+Here is the string: :_______/______M_0
+Here is the string: :_______/______M_5
+Here is the string: :_______/________/__
+Here is the string: _
+Here is the string: _
+Here is the string: _Z______U,/
+Exception caught: FieldError Cannot resolve keyword '_Z' into field. Choices are: data, id
+Here is the string: _}_____________?\
+Here is the string: _}_____________?\__}__
+Exception caught: FieldError Cannot resolve keyword '_}' into field. Choices are: id, time
+Here is the string: _}___________]_?\__}__
+Exception caught: FieldError Cannot resolve keyword '_}' into field. Choices are: based_in_eu, firstname, id, lastname, manager, manager_id, salary
+Here is the string: __}_[
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: __}_[yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: :_:__
+Here is the string: :_[_:__
+Here is the string: ___
+Here is the string: _t_
+Exception caught: FieldError Cannot resolve keyword '_t_' into field. Choices are: adjusted_salary, based_in_eu, employee_ptr, employee_ptr_id, firstname, id, lastname, manager, manager_id, salary
+Here is the string: _t+
+Exception caught: FieldError Cannot resolve keyword '_t+' into field. Choices are: id, work_day_preferences
+Here is the string: _UUIDFieldt+
+Exception caught: FieldError Cannot resolve keyword '_UUIDFieldt+' into field. Choices are: experiment, experiment_id, id, result_time
+Here is the string: _UUIDFieWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWldt+
+Exception caught: FieldError Cannot resolve keyword '_UUIDFieWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWldt+' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: ___________u______________u__________________________u_____________u__7_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, ceo, ceo_id, id, name, num_chairs, num_employees, point_of_contact, point_of_contact_id
+Here is the string: ___________u______________u____________________]_____u_____________u__7_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: adjusted_salary, based_in_eu, employee_ptr, employee_ptr_id, firstname, id, lastname, manager, manager_id, salary
+Here is the string: __________u______________u____________________]_____u_____________u__7_
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: ____C_____u______________u____________________]_____u_____________u__7_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: ____C_____u______________u____________________]_;___u_____________u__7_
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: ___X_______u______________u__________________________u_____________u__7_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: adjusted_salary, based_in_eu, employee_ptr, employee_ptr_id, firstname, id, lastname, manager, manager_id, salary
+Here is the string: ___X_______u______________u___________________BooleanField_______u_____________u__7_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, ceo, ceo_id, id, name, num_chairs, num_employees, point_of_contact, point_of_contact_id
+Here is the string: ___X_______u______________u___________________BooleanField_______u_____________u__*_
+Here is the string: ___X_______u______________u___________________BooleanField_______u_____________u__*_~
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, work_day_preferences
+Here is the string: ___X_______u______________u________AS_________BooleanField_______u_____________u__*_~
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: _^
+Here is the string: _^
+Here is the string: _/^
+Here is the string: __t__
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: adjusted_salary, based_in_eu, employee_ptr, employee_ptr_id, firstname, id, lastname, manager, manager_id, salary
+Here is the string: t____
+Here is the string: ___t_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: data, id
+Here is the string: ___t_
+Here is the string: pk___t_
+Here is the string: ___//////////////////////////////////////////__1___
+Here is the string: ___%/////////////////////////////////////////__1___
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, time
+Here is the string: _9\
+Exception caught: FieldError Cannot resolve keyword '_9\\' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: 14
+Here is the string: ___.BooleBoi___.BooleBoield\eld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: age, friends, id, name, rating
+Here is the string: ___.BleBoi___.BooleBoield\eld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: ___.B___.BleBoi___.BooleBoielleBoi___.BooleBoield\eld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id
+Here is the string: ___.B(((((((((((((((___.BleBoi___.BooleBoielleBoi___.BooleBoield\eld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: experiment, experiment_id, id, result_time
+Here is the string: ___.B(((((((((((((((___.BleBoi___.BooleBoielleBoi___.Boole.BooleBoielleBoi___.BooBoield\eld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: adjusted_salary, based_in_eu, employee_ptr, employee_ptr_id, firstname, id, lastname, manager, manager_id, salary
+Here is the string: ::_
+Here is the string: ::_@
+Here is the string: /4
+Here is the string: /__}_
+Here is the string: ___________u______________u____________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: ___________u____!__________u____________
+Here is the string: ____' OR 1=1#___!__________u____________
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: ____' OR _^1#___!__________u____________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: _________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, end_date, end_datetime, end_time, id, name, start_date, start_datetime, start_time
+Here is the string: ______
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, id, name, num_awards
+Here is the string: _____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id
+Here is the string: ____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: books, friday_night_closing, id, name, original_opening
+Here is the string: __________________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: data, id
+Here is the string: _____________________' UNION SELECT ALL FROM users --_____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, id, name, num_awards
+Here is the string: _____________________' UNION SELECT ALL FROM users --_____
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: f_admin' #_:.______6_
+Here is the string: f_admin' #_:.______'; DROP TABLE users; --6_
+Here is the string: f_admin' #_:.______'; DROP TABLE us$rs; --6_
+Here is the string: \\[
+Here is the string: `\\[
+Here is the string: \`\[
+Here is the string: \d\[
+Here is the string: \d" OR 1=1 --\[
+Here is the string: ___________/____________________________/___________________________
+Here is the string: _DateField__________/____________________________/___________________________
+Here is the string: _DateField_________/____________________________/___________________________
+Here is the string: _DateField______BooleanField___/____________________________/___________________________
+Here is the string: _DateField______BooleanField___/_________________________/______________________________
+Here is the string: ______________/_________________________/______________E___________
+Here is the string: _+9_____
+Exception caught: FieldError Cannot resolve keyword '_+9' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: _+8_____
+Here is the string: _+8___+8________
+Exception caught: FieldError Cannot resolve keyword '_+8' into field. Choices are: books, friday_night_closing, id, name, original_opening
+Here is the string: ________
+Here is the string: _Z______Bo
+Exception caught: FieldError Cannot resolve keyword '_Z' into field. Choices are: experiment, experiment_id, id, result_time
+Here is the string: _Z______Bo
+Here is the string: _Z_Z______Bo
+Here is the string: _Z_Z______Bo
+Here is the string: _Z_Z_____Bo
+Here is the string: O_
+Exception caught: FieldError Cannot resolve keyword 'O_' into field. Choices are: end, end_id, id, midpoint, start, start_id
+Here is the string: Of
+Here is the string: Of__dt__:/
+Exception caught: FieldError Cannot resolve keyword 'Of' into field. Choices are: id
+Here is the string: OOf__dt__/
+Exception caught: FieldError Cannot resolve keyword 'OOf' into field. Choices are: duration, end_date, end_datetime, end_time, id, name, start_date, start_datetime, start_time
+Here is the string: .OOf__dt__/
+Here is the string: ___.BooleBoield\~
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, work_day_preferences
+Here is the string: ___.BooleBeield\~
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, firstname, id, lastname, manager, manager_id, salary
+Here is the string: ___.BooleBeield\~
+Here is the string: ___Beield\~
+Here is the string: __V_Beield\~
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, time
+Here is the string: __W8
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, firstname, id, lastname, manager, manager_id, salary
+Here is the string: __W8"NAME"
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: f__________6_
+Here is the string: f_________6__
+Here is the string: f_________6__
+Here is the string: ___________/_________________________/__________________________:_
+Here is the string: ___________/_______________________________/__________________________:_
+Here is the string: ___________/_______________________________/__________________________:_
+Here is the string: _DateField__________/_______________________________/__________________________:_
+Here is the string: _DateField__________/_______________________________/__________________________:_
+Here is the string: /8
+Here is the string: /8
+Here is the string: /8
+Exception caught: FieldError Cannot resolve keyword '/8' into field. Choices are: authors, contact, contact_id, id, isbn, name, pages, price, pubdate, publisher, publisher_id, rating
+Here is the string: /8/8
+Here is the string: /8/8
+Exception caught: FieldError Cannot resolve keyword '/8/\x01\x018' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: %_4
+Here is the string: %_4_4
+Here is the string: %_3_4
+Here is the string: ̗۠4
+Exception caught: FieldError Cannot resolve keyword '̗۠4' into field. Choices are: end, end_id, id, midpoint, start, start_id
+Here is the string: __d_dict__:/,
+Here is the string: __mf\
+Here is the string: _BooleanField_mf\
+Here is the string: _BooleanField_Ymf\
+Exception caught: FieldError Cannot resolve keyword '_BooleanField_Ymf\' into field. Choices are: decimal_value, float, id, integer
+Here is the string: __d___:/
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, end_date, end_datetime, end_time, id, name, start_date, start_datetime, start_time
+Here is the string: __d___:/
+Here is the string: ________/
+Here is the string: \\
+Here is the string: \\
+Here is the string: _t\\
+Exception caught: FieldError Cannot resolve keyword '_t\\\\' into field. Choices are: duration, id, name, num_awards
+Here is the string: _t\
+Here is the string: t\_
+Here is the string: \\
+Here is the string: \_\
+Here is the string: \_\
+Here is the string: _\\
+Here is the string: ' AND ASCII(SUBSTRING(@@version, 1, 1)) = 77 --_\\
+Here is the string: ______d7_
+Here is the string: ______7_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: data, id
+Here is the string: __t_____7_
+Here is the string: _t_____7_
+Exception caught: FieldError Cannot resolve keyword '_t' into field. Choices are: age, friends, id, name, rating
+Here is the string: _t____[7_
+Here is the string: " OR 1=1
+Here is the string: "
+                     1=1
+Here is the string: __0____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id
+Here is the string: \___\Bo_BooleBoonFi+ld\
+Here is the string: \__\Bo_BooleBoonFi+ld\
+Here is the string: \__\Bo_#ooleBoonFi+ld\
+Here is the string: ____6__6__
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, work_day_preferences
+Here is the string: ____6__6__
+Here is the string: ____6__6__
+Here is the string: ____7__6__
+Here is the string: ____7__6__
+Here is the string: __d/__/
+Here is the string: [_d/__/
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: d[/___/
+Here is the string: d[>/___/
+Here is the string: DateField
+Here is the string: _______/__') or ('1'='1__________________________
+Here is the string: _______/__') or ('1'='1__________________________
+Here is the string: _______/__') or ('2'='1__________________________
+Here is the string: _______/__') or ('2'='1________################################################__________________
+Here is the string: _______/__') or ('2'='1________####9###########################################__________________
+Here is the string: f___.______6_
+Here is the string: f___DateField6_
+Here is the string: f___Dateld6_
+Here is the string: f____\Dateld6_
+Here is the string: f____\Dateld6_
+Here is the string: __d_dictW_:/
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: end, end_id, id, midpoint, start, start_id
+Here is the string: admin' --_:/
+Here is the string: ain' --_:/:/
+Here is the string: ain/:/
+Here is the string: a/:/
+Here is the string: ______/______________u_____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, end_date, end_datetime, end_time, id, name, start_date, start_datetime, start_time
+Here is the string: ______/______________u_/______________u______
+Here is the string: ______/______________u______
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: authors, contact, contact_id, id, isbn, name, pages, price, pubdate, publisher, publisher_id, rating
+Here is the string: ______BooleanField/______________u______
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, time
+Here is the string: ______BooleanField\______________u______
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: authors, contact, contact_id, id, isbn, name, pages, price, pubdate, publisher, publisher_id, rating
+Here is the string: -9__+____
+Here is the string: -9__+___
+Here is the string: __Da_Bo_Bo_te//onFi+dd\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: books, friday_night_closing, id, name, original_opening
+Here is the string: __Da_Bo_Bo_t___e_//onFi+dd\
+Here is the string: __t__t________
+Here is the string: __t__
+Here is the string: _BooleanField_t__
+Here is the string: _BooleanField_t_BooleanField_t__
+Here is the string: _BooleanField_t_BooleanField_t__
+Here is the string: md____
+Here is the string: d___md____
+Here is the string: " OR 1=1/*
+Here is the string:  1=1/*
+Here is the string:  ' OR 1=1 ORDER BY 3--1=1/*
+Here is the string: _____________/_______________/
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: books, friday_night_closing, id, name, original_opening
+Here is the string: _____________/_______________/
+Here is the string: _____________/______________/8_/
+Here is the string: _____________/___/____________________/8_/
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: _____________/___/_________________/8_/8_/
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: adjusted_salary, based_in_eu, employee_ptr, employee_ptr_id, firstname, id, lastname, manager, manager_id, salary
+Here is the string: ' or sleep(5)--
+Here is the string: \' or sleep(5)--
+Here is the string: \' or sleep-5)(-
+Here is the string: \' or sleep- sleep-5)(5)(-
+Here is the string: \ sleep- sleep-5)(5)(-
+Here is the string: _______/___________________________
+Here is the string: _______/___________________________
+Here is the string: _______/___________________________
+Here is the string: _______/___________________
+Here is the string: _____/___________________
+Here is the string: _____*_______?\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, time
+Here is the string: f__%_______:.______6_
+Here is the string: f__%_______:.______6_
+Here is the string: f__%___
+Here is the string: f__%___
+Here is the string: fX_%___
+Here is the string: __d_dict__z/
+Here is the string: ___ddict__z/
+Here is the string: __t__dicd_z/
+Here is the string: __t__dccd_z/
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, end_date, end_datetime, end_time, id, name, start_date, start_datetime, start_time
+Here is the string: \
+Here is the string: _____________/___________
+Here is the string: ____________________/___________
+Here is the string: ______________/_________________________/________E__________________
+Here is the string: ______________________________/_________/________E__________________
+Here is the string: _%
+Exception caught: FieldError Cannot resolve keyword '_%' into field. Choices are: adjusted_salary, based_in_eu, employee_ptr, employee_ptr_id, firstname, id, lastname, manager, manager_id, salary
+Here is the string: %
+Here is the string: _%
+Here is the string: ___BogBooleBoonFi+ld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, ceo, ceo_id, id, name, num_chairs, num_employees, point_of_contact, point_of_contact_id
+Here is the string: __ooleBoonFi+ld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, id, name, num_awards
+Here is the string: __ooleBoonFi+ldeBoonFi+\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: age, friends, id, name, rating
+Here is the string: __ooleBoonFi+ldeBoon%i+\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: decimal_value, float, id, integer
+Here is the string: __ooleBoonFi+ld.Boon%i+\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: books, friday_night_closing, id, name, original_opening
+Here is the string: ___________/_______________/_________________________/____________
+Here is the string: ___________/_______________/_________________________________
+Here is the string: _____________/_________________________________
+Here is the string: _____________/_____________________________________________________
+Here is the string: __________]__/_____________________________________________________
+Here is the string: md_
+Here is the string: d_md_
+Here is the string: d_m$d_
+Here is the string: d_m$d___
+Here is the string: d_' OR '1'='1' --m$d___
+Here is the string: __W___
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id
+Here is the string: ___
+Here is the string: __`
+Here is the string: __`
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: _
+Here is the string: \___6__
+Here is the string: \_0_6__
+Here is the string: \_0_6__
+Here is the string: \_._6__
+Here is the string: \_._6_[
+Here is the string: ____________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, work_day_preferences
+Here is the string: ______________________________?__\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: data, id
+Here is the string: BooleanField___6__
+Here is the string: Boole_6anField___6__
+Here is the string: Boole_6anField__
+Here is the string: Boole_6anFielde_
+Here is the string: md__A__
+Here is the string: md__C__
+Here is the string: md__' OR 1=1 --C__
+Here is the string: md__1=1 --' OR 1=1 --C__
+Here is the string: mdOR 1=1 --C___1=1 --' OR 1=1 --C__
+Here is the string: f__________:.____?_6_
+Here is the string: _____f_____:.____?_6_
+Here is the string: _______/____________________________
+Here is the string: _^_
+Exception caught: FieldError Cannot resolve keyword '_^_' into field. Choices are: decimal_value, float, id, integer
+Here is the string: _^_^__
+Exception caught: FieldError Cannot resolve keyword '_^_^' into field. Choices are: age, friends, id, name, rating
+Here is the string: admin' #_^_^__
+Here is the string: admin' #_^_in' #_^_^__
+Here is the string: md_%__
+Here is the string: ______________/_________________________/___________________________
+Here is the string: ______________/___________________\_____/___________________________
+Here is the string: ______________/___________________\_____/___________________________
+Here is the string: ______________/___________________\_____/___________________________
+Here is the string: ______________/____________________\_____/___________________________
+Here is the string: __.________u______________u____________e___________________________u____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: __.________u______________u____________e______________________=____u____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: end, end_id, id, midpoint, start, start_id
+Here is the string: ]_.________u______________u____________e______________________=____u____
+Here is the string: ___________/_________________________/____________________________
+Here is the string: ___________/___________[_____________/____________________________
+Here is the string: ___________/_____#_____[_____________/____________________________
+Here is the string: ___________;;;;;;;;;;;/_____#_____[_____________/____________________________
+Here is the string: ___________;;;;;;;;;;;/_____#_____[___W_________/____________________________
+Here is the string: ___________/___________________:______/____________________________
+Here is the string: ___________/___________________:______/____________O_______________
+Here is the string: ___________/___________________:______/____________O_______________
+Here is the string: ___________/__________________b:______/____________O_______________
+Here is the string: ________e__/__________________b:______/____________O_______________
+Here is the string: ___DateField_____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: decimal_value, float, id, integer
+Here is the string: ____Date\Field____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: ___aD_te\Field____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: authors, contact, contact_id, id, isbn, name, pages, price, pubdate, publisher, publisher_id, rating
+Here is the string: ___aD_te\Field__[_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: ___a_aDe\Field__[_
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: __LLLLLLLLLLLLL
+Here is the string: ____/____
+Here is the string: O___/____
+Here is the string: O___/___
+Here is the string: O___/__
+Here is the string: O___/__
+Here is the string: _]____/______0
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: _]____/______0
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: _]____/______0
+Here is the string: _1]____/______0
+Here is the string: _1]____/_______
+Here is the string: Y
+Here is the string: Y
+Here is the string: Y
+
+Here is the string: Y
+Here is the string: _/dict__:/
+Exception caught: FieldError Cannot resolve keyword '_/dict' into field. Choices are: decimal_value, float, id, integer
+Here is the string: ,^
+Here is the string: ,N
+Here is the string: ,N_t
+Here is the string: ,N_t
+Here is the string: ,N_t
+Here is the string: 99
+Here is the string: 89
+Here is the string: 8989
+Here is the string: 8989
+Here is the string: 89_________________n_____8___/__9___
+Here is the string: ___@o_BooleBoonFi+ld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, firstname, id, lastname, manager, manager_id, salary
+Here is the string: ___@o_BooleBi+ld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: data, id
+Here is the string: ___@o_BwoleBi+ld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: _/^
+Exception caught: FieldError Cannot resolve keyword '_/^' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: _/^n
+Exception caught: FieldError Cannot resolve keyword '_/^n' into field. Choices are: duration, id, name, num_awards
+Here is the string: _/^n^n
+Here is the string: _/^/^n
+Here is the string: _/^/^n
+Here is the string: \
+Exception caught: FieldError Cannot resolve keyword '\x7f\\' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: _O\
+Exception caught: FieldError Cannot resolve keyword '_O\' into field. Choices are: id
+Here is the string: m_td____
+Here is the string: _4
+Exception caught: FieldError Cannot resolve keyword '_4' into field. Choices are: id
+Here is the string: 55
+Here is the string: BooleanField__}__
+Here is the string: ________________________________________________________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, work_day_preferences
+Here is the string: ___________________________:._____________________________________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: experiment, experiment_id, id, result_time
+Here is the string: ___________________________:._____________________________________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: end, end_id, id, midpoint, start, start_id
+Here is the string: DateField
+Here is the string: DateFiekd
+Here is the string: DzateFiekd
+Here is the string: DzaeFtkeid
+Here is the string: ' or '' = 'DzaeFtkeid
+Exception caught: FieldError Cannot resolve keyword '' or '' = 'DzaeFtkeid' into field. Choices are: based_in_eu, ceo, ceo_id, id, name, num_chairs, num_employees, point_of_contact, point_of_contact_id
+Here is the string: ______/___________________*______
+Here is the string: _^
+Here is the string: _^' OR NOT EXISTS(SELECT * FROM users) --
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+_ere is the string: :
+_:re is the string: :
+_!re is the string: :
+_m_____!___ string: :
+Here is the string: :OC
+Here is the string: _________________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: authors, contact, contact_id, id, isbn, name, pages, price, pubdate, publisher, publisher_id, rating
+Here is the string: ________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: experiment, experiment_id, id, result_time
+Here is the string: ___^____________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: experiment, experiment_id, id, result_time
+Here is the string: admin' #________
+Here is the string: admin' #_______$
+Here is the string: ]_^
+Here is the string: ]____6_^_
+Here is the string: ]____6' OR '1'='1' --_^_
+Here is the string: ]____6, OR '1'='1' --_^_
+Here is the string: ]____6,END OR '1'='1' --_^_
+Here is the string: ___JooleBoolnFnFieldanField\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: age, friends, id, name, rating
+Here is the string: ___JooleBoolfFnFieldanField\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: data, id
+Here is the string: ___JooleBoolfFnFieldanFieRld\
+Here is the string: ___JooleBoolfFnFieldanFi/Rld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, work_day_preferences
+Here is the string: __'; DROP TABLE users; --__________t__
+Here is the string: __'; DROP TABLE LE users;__________t__
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: __'; ;ROP TABLE LE users;__________t__
+Here is the string: __'; ;RO________t__
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: __d_dict___t
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, id, name, num_awards
+Here is the string: ___d_dict___t
+Here is the string: ___t_d_dict___t
+Here is the string: ___t_d_dict___d
+Here is the string: ___t___d
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, id, name, num_awards
+Here is the string: ___//////////////////////DateField///////////_____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: ___//////////////////////DateFAeld///////////_____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: end, end_id, id, midpoint, start, start_id
+Here is the string: ___////////////////____//DateFAeld///////////_____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: age, friends, id, name, rating
+Here is the string: ___////////////////admin' #____//DateFAeld///////////_____
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: ___////////////////admin' #____?/DateFAeld///////////_____
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, id, name, num_awards
+Here is the string: ____u_z_____<___________u^________t__________
+Here is the string: [___u_z_____<___________u^________t__________
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: ___.BooleBo__ld\
+Here is the string: ___.booleBo__ld\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, id, name, num_awards
+Here is the string: DateFieldBo__ld\
+Here is the string: DateFieBo__ldldBo__ld\
+Here is the string: DateFieBo__ldldBoieBo__ldldBo___ld\
+Here is the string: __d/__/
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: decimal_value, float, id, integer
+Here is the string: ____________t_t__
+Here is the string: ______DDDDDDDDDDDDDDDDDDDDDDDDDDD______t_t__
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: ______DDDDDDDDDDDDDDDDDDDDDDDDDDD______t_t__
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, firstname, id, lastname, manager, manager_id, salary
+Here is the string: f______:.______6_
+Here is the string: =f______:.______6_
+Here is the string: =^______:.______6_
+Here is the string: =^______:.______6_
+Here is the string: =^______:_______6_
+Here is the string: ________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: data, id
+Here is the string: _'; EXEC xp_cmdshell('whoami'); --__
+Exception caught: FieldError Cannot resolve keyword '_'; EXEC xp_cmdshell('whoami'); --' into field. Choices are: data, id
+Here is the string: _'; EXEC xp_cmdshell('whoami');EXEC xp --__
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: _'; EXEC xp_cmdshell('whoami');EXEC xp --_
+Exception caught: FieldError Cannot resolve keyword '_'; EXEC xp_cmdshell('whoami');EXEC xp --_' into field. Choices are: end, end_id, id, midpoint, start, start_id
+Here is the string: _'; EXEC xp_cmdshell('whoami');EXEC xFielda
+Exception caught: FieldError Cannot resolve keyword '_'; EXEC xp_cmdshell('whoami');EXEC xFielda' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: ___`________t__
+Here is the string: _______O____________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, ceo, ceo_id, id, name, num_chairs, num_employees, point_of_contact, point_of_contact_id
+Here is the string: _______O__!_________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, firstname, id, lastname, manager, manager_id, salary
+Here is the string: _______O__!_________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: end, end_id, id, midpoint, start, start_id
+Here is the string: _______O__!_________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: _______O__!______t__
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: decimal_value, float, id, integer
+Here is the string: __?\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, id, name, num_awards
+Here is the string: _DateField_____
+Exception caught: FieldError Cannot resolve keyword '_DateField' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: __\?\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, id, name, num_awards
+Here is the string: __\[\
+Here is the string: __\[[\
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: __\[' UNION SELECT 1, 'abc', NULL --[\
+Here is the string: __\['[ UNION SELECT 1, 'abc', NULL --[\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: age, friends, id, name, rating
+Here is the string: __DateFi_Bo_Bo_te//onFi+dd\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: authors, contact, contact_id, id, isbn, name, pages, price, pubdate, publisher, publisher_id, rating
+Here is the string: __DateFi_Bo_Bo_te//onFi+dd\
+Here is the string: __DateFi_Bo_Bo_te//onFi+dd\
+Here is the string: ___________u________u__________/_____________~_______________u__3____Bo_Bo
+Here is the string: ___________u________u__________/_____________~_______________u__4____Bo_Bo
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, ceo, ceo_id, id, name, num_chairs, num_employees, point_of_contact, point_of_contact_id
+Here is the string: ___________u________D__________/_____________~_______________u__4____Bo_Bo
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id
+Here is the string: ___________u________D__________/_____________~_______________u__4____Bo_Bo
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: duration, end_date, end_datetime, end_time, id, name, start_date, start_datetime, start_time
+Here is the string: ___________u________D_____________u__4____Bo_Bo
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, work_day_preferences
+Here is the string: ___________u________u__________/_____________~_______________u__3___
+Here is the string: ___________u________u____________/_____________~_______________u__3___
+Here is the string: ___________u_____   __u____________/_____________~_______________u__3___
+Here is the string: __?\\
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: based_in_eu, firstname, id, lastname, manager, manager_id, salary
+Here is the string: _________________________
+Here is the string: ____________________________________________
+Here is the string: ___________________________________._________
+Here is the string: _______________________________._________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id
+Here is the string: _________________________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: data, id
+Here is the string: __dBooleanField_dict__:/
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: data, id
+Here is the string: _______________________6_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: decimal_value, float, id, integer
+Here is the string: _____________=_________6_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: id, name, secretary, secretary_id
+Here is the string: _________=_________6_
+Here is the string: _________=_________2_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: decimal_value, float, id, integer
+Here is the string: _________=_____2_
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: books, friday_night_closing, id, name, original_opening
+Here is the string: __________b__________________
+Here is the string: ________{__b__________________
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: age, friends, id, name, rating
+Here is the string: __dt__:/
+Here is the string: __
+Here is the string: __
+Here is the string: __44
+Here is the string: __4__444
+Exception caught: FieldError Cannot resolve keyword '' into field. Choices are: assigned, completed, end, estimated_time, id, name, scalar, start
+Here is the string: 9
+Here is the string: 9
+Here is the string: 9
+Here is the string: 9
+Here is the string: _admin' #_mf\
+Exception caught: ValueError Column aliases cannot contain whitespace characters, quotation marks, semicolons, or SQL comments.
+Here is the string: _admin#'m_ f\
+Exception caught: FieldError Cannot resolve keyword '_admin#'m_ f\' into field. Choices are: end, end_id, id, midpoint, start, start_id
+Here is the string: _admDateFieldin#'m_ f\
+Exception caught: FieldError Cannot resolve keyword '_admDateFieldin#'m_ f\' into field. Choices are: based_in_eu, ceo, ceo_id, id, name, num_chairs, num_employees, point_of_contact, point_of_contact_id
+Here is the string: _admDateFieldiDateFieldn#'m_ f\
+Exception caught: FieldError Cannot resolve keyword '_admDateFieldiDateFieldn#'m_ f\' into field. Choices are: id, uuid, uuid_fk, uuid_fk_id
+Here is the string: _admDateFieldiDateieldn#'m_ f\
+Here is the string: 1
+Here is the string: 0
+Here is the string: 0
+Here is the string: L
+Here is the string: ' OR EXISTS(SELECT * FROM users) --L
+Here is the string: _
+Here is the string: __
+Here is the string: __
+Here is the string: ' OR benchmark(10000000,MD5(1))--__
+Here is the string: 9/
+Here is the string: _t9/
+Exception caught: FieldError Cannot resolve keyword '_t9/' into field. Choices are: duration, id, name, num_awards
+Here is the string: 9_t9/
+Here is the string: 9__t9/
+Here is the string: 9__tt9
+Here is the string: 9|
+Here is the string: |
+Here is the string: -|
+^CKeyboardInterrupt: stopping.
